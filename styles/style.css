@@ -35,8 +35,9 @@ main section .first:hover{
     cursor: pointer;
     background-color: rgb(128, 128, 128, .5);
 }
-main section img{
-    width: 100%;
+.first p{
+    margin-bottom: 0;
+    padding-bottom: 16px;
 }
 .first{
     padding-top: 18.72px;
