@@ -12,6 +12,8 @@ header{
     left: 0;
     top: 0;
     width: 100%;
+    background-color: black;
+
 }
 header h1{
     display: flex;
