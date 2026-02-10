@@ -3,37 +3,39 @@ body{
     margin: 0 auto;
 
     text-align: center;
-}
 
+    background-color: black;
+    color: white;
+}
 header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+header h1{
     display: flex;
     align-items: center;
     justify-content: center;
 
-    position: fixed;
-    width: 100%;
-
-    background-color: white;
+    /* background-color: white; */
     /* margin-top: 0; */
-
-    left: 0;
-    top: 0;
 }
 
 main{
-    margin-top: 80px;
+    margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     padding: 5px;
-    background-color: black;
-}
-main section{
     background-color: white;
 }
+/* main section{
+    background-color: white;
+} */
 main section .first:hover{
     cursor: pointer;
-    background-color: rgb(128, 128, 128, .5);
+    background-color: rgb(128, 128, 128, .8);
 }
 .first p{
     margin-bottom: 0;
@@ -41,6 +43,7 @@ main section .first:hover{
 }
 .first{
     padding-top: 18.72px;
+    background-color: black;
 }
 .name{
     margin-top: 0;
@@ -50,7 +53,8 @@ main section .first:hover{
     display: none;
 
     position: fixed;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
     width: 60%;
     min-height: 80%;
     left: 20%;
